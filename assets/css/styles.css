@@ -954,7 +954,7 @@ img {
 
 /* media queries */
 /* small screens */
-@media screen and (width <= 450px) {
+@media screen and (width <= 475px) {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
