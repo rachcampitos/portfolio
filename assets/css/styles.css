@@ -966,7 +966,7 @@ img {
     column-gap: 0;
   }
   .home__content {
-    grid-template-columns: 0.25fr 3fr;
+    grid-template-columns: 2fr 3fr;
   }
   .home__blob {
     width: 180px;
