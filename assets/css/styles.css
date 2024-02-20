@@ -756,6 +756,7 @@ img {
 
 .portfolio__description {
   margin-bottom: var(--mb-1-5);
+  text-align: justify;
 }
 
 .portfolio__button .button__icon {
@@ -953,7 +954,7 @@ img {
 
 /* media queries */
 /* small screens */
-@media screen and (width <= 350px) {
+@media screen and (width <= 450px) {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -994,7 +995,7 @@ img {
   }
   .swiper-horizontal > .swiper-pagination-bullets,
   .swiper-pagination-bullets.swiper-pagination-horizontal {
-    bottom: 3.5rem !important;
+    bottom: 0 !important;
   }
   .swiper-button-prev {
     left: 0.5rem !important;
