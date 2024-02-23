@@ -384,7 +384,7 @@ img {
   align-self: center;
   width: 350px;
   height: 350px;
-  background-image: url("/assets/img/raul2.jpg");
+  background-image: url("/assets/img/raul3.jpeg");
   background-size: cover;
   background-position: center 30%;
   border-radius: 50%;
@@ -970,6 +970,10 @@ img {
   }
   .home__blob {
     width: 180px;
+  }
+  .about__img {
+    width: 200px;
+    height: 200px;
   }
   .skills__title {
     font-size: var(--normal-font-size);
