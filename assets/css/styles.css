@@ -310,6 +310,27 @@ img {
   margin-bottom: var(--mb-2);
 }
 
+.tech-stack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.tech-stack span {
+  margin: 0 15px;
+}
+
+.tech-stack .stack-img {
+  display: flex;
+}
+
+.stack-img img {
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+}
+
 .home__scroll {
   display: none;
 }
@@ -975,6 +996,15 @@ img {
     width: 200px;
     height: 200px;
   }
+  .tech-stack p,
+  .tech-stack span {
+    display: none;
+  }
+  .stack-img img {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+  }
   .skills__title {
     font-size: var(--normal-font-size);
   }
@@ -1021,6 +1051,15 @@ img {
   .home__img {
     order: 1;
     justify-self: center;
+  }
+  .tech-stack {
+    justify-content: space-evenly;
+    margin-top: 0px;
+  }
+  .stack-img img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
   }
   .about__container,
   .skills__container,
